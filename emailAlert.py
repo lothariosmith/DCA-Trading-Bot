@@ -15,7 +15,7 @@ def market_notification(subject, body, to):
     msg['subject'] = subject
     msg['to'] = to
     
-    user = "ENETR EMAIL HERE"
+    user = "ENETR (FROM) EMAIL HERE"
     msg['from'] = user
     password = "ENETR PASSWORD HERE"
 
@@ -30,7 +30,7 @@ def market_notification(subject, body, to):
 # Receive Email Script
 
 def readEmail():
-    user = "ENTER EMAIL HERE"
+    user = "ENTER (FROM) EMAIL HERE"
     password = "ENTER PASSWORD HERE"
     server = e.connect("imap.gmail.com", user, password)
     #server.listids()

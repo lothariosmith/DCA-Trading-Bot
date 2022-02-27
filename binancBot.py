@@ -88,11 +88,11 @@ while checkRSI == True:
 
     if rsiValue < 30:
         print("Great Buy")
-        market_notification("Approve/Disapprove/Continue", "Great Buying Opportunity, place order on PC", "bobx8291@gmail.com")
+        market_notification("Approve/Disapprove/Continue", "Great Buying Opportunity, place order on PC", "ENTER (TO) EMAIL ADDRESS")
         makeDecision()
     elif rsiValue > 70:
         print("Great Sell")
-        market_notification("Approve/Disapprove/Continue", "Great Selling Opportunity, place order on PC", "bobx8291@gmail.com")
+        market_notification("Approve/Disapprove/Continue", "Great Selling Opportunity, place order on PC", "ENTER (TO) EMAIL ADDRESS")
         makeDecision()
     else:
         print("No Buying or Selling Opportunity")
